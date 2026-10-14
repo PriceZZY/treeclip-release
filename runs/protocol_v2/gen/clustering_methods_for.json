@@ -1,0 +1,140 @@
+{
+  "dataset": "for",
+  "n": 13497,
+  "true_K": 15,
+  "fix_K_methods": {
+    "kmeans": {
+      "CLIP_11d": {
+        "NMI": {
+          "mean": 0.2748,
+          "std": 0.0011
+        },
+        "hungarian_acc": {
+          "mean": 0.2726,
+          "std": 0.0044
+        },
+        "n_seeds": 5
+      },
+      "geo_11d": {
+        "NMI": {
+          "mean": 0.1026,
+          "std": 0.0018
+        },
+        "hungarian_acc": {
+          "mean": 0.1997,
+          "std": 0.0039
+        },
+        "n_seeds": 5
+      }
+    },
+    "gmm": {
+      "CLIP_11d": {
+        "NMI": {
+          "mean": 0.289,
+          "std": 0.0078
+        },
+        "hungarian_acc": {
+          "mean": 0.2815,
+          "std": 0.0128
+        },
+        "n_seeds": 5
+      },
+      "geo_11d": {
+        "NMI": {
+          "mean": 0.0916,
+          "std": 0.002
+        },
+        "hungarian_acc": {
+          "mean": 0.1607,
+          "std": 0.0012
+        },
+        "n_seeds": 5
+      }
+    },
+    "spectral": {
+      "CLIP_11d": {
+        "NMI": {
+          "mean": 0.3122,
+          "std": 0.0001
+        },
+        "hungarian_acc": {
+          "mean": 0.3056,
+          "std": 0.0001
+        },
+        "n_seeds": 5,
+        "subsampled_n": 4000
+      },
+      "geo_11d": {
+        "NMI": {
+          "mean": 0.1359,
+          "std": 0.0001
+        },
+        "hungarian_acc": {
+          "mean": 0.2118,
+          "std": 0.0001
+        },
+        "n_seeds": 5,
+        "subsampled_n": 4000
+      }
+    },
+    "agglo": {
+      "CLIP_11d": {
+        "NMI": {
+          "mean": 0.3043,
+          "std": 0.0
+        },
+        "hungarian_acc": {
+          "mean": 0.3192,
+          "std": 0.0
+        },
+        "n_seeds": 1,
+        "subsampled_n": 4000
+      },
+      "geo_11d": {
+        "NMI": {
+          "mean": 0.1219,
+          "std": 0.0
+        },
+        "hungarian_acc": {
+          "mean": 0.2115,
+          "std": 0.0
+        },
+        "n_seeds": 1,
+        "subsampled_n": 4000
+      }
+    }
+  },
+  "estimate_K_methods": {
+    "hdbscan": {
+      "CLIP_11d": {
+        "k_hat": 4,
+        "true_k": 15,
+        "noise_frac": 0.722,
+        "NMI": 0.1816,
+        "AMI": 0.1805
+      },
+      "geo_11d": {
+        "k_hat": 0,
+        "true_k": 15,
+        "noise_frac": 1.0,
+        "NMI": 0.0,
+        "AMI": 0.0
+      }
+    },
+    "dpgmm": {
+      "CLIP_11d": {
+        "k_hat": 38,
+        "true_k": 15,
+        "NMI": 0.2977,
+        "AMI": 0.2926
+      },
+      "geo_11d": {
+        "k_hat": 37,
+        "true_k": 15,
+        "NMI": 0.1031,
+        "AMI": 0.0964
+      }
+    }
+  },
+  "note": "fix-K methods at K=#species, matched 11-d; spectral/agglo subsampled if n>4000"
+}

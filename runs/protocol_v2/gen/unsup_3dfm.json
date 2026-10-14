@@ -1,0 +1,88 @@
+{
+  "note": "Frozen OpenShape PointBERT (PPAT) 3D-FM baseline vs CLIP vs geo; matching-free NMI/AMI, 15 seeds; primary 3D-FM embedding = 1280-d CLIP-aligned projected.",
+  "model": "OpenShape/openshape-pointbert-shapenet (PPAT scaling=1, ShapeNet-pretrained, FROZEN)",
+  "embedding_primary": "tdfm_proj_1280",
+  "N_points": 1024,
+  "seeds": 15,
+  "grouping": "pure-torch FPS (start=0) + ball-query (r=0.4,nsamp=256); no custom CUDA op",
+  "biodiv": {
+    "n": 2250,
+    "K": 6,
+    "n_sources": 3,
+    "self_check": {
+      "clip_NMI_mean": 0.3501,
+      "clip_NMI_sd": 0.0009,
+      "target": 0.3501,
+      "tol": 0.01,
+      "pass": true
+    },
+    "clip": {
+      "NMI_mean": 0.3501,
+      "NMI_sd": 0.0009,
+      "AMI_mean": 0.3476,
+      "AMI_sd": 0.0009,
+      "within_source_NMI": 0.263
+    },
+    "geo": {
+      "NMI_mean": 0.101,
+      "NMI_sd": 0.0003,
+      "AMI_mean": 0.0973,
+      "AMI_sd": 0.0003,
+      "within_source_NMI": 0.0609
+    },
+    "tdfm_proj_1280": {
+      "NMI_mean": 0.2655,
+      "NMI_sd": 0.0018,
+      "AMI_mean": 0.2627,
+      "AMI_sd": 0.0018,
+      "within_source_NMI": 0.1667
+    },
+    "tdfm_pooled_256": {
+      "NMI_mean": 0.2721,
+      "NMI_sd": 0.0013,
+      "AMI_mean": 0.2692,
+      "AMI_sd": 0.0013,
+      "within_source_NMI": 0.1891
+    }
+  },
+  "for": {
+    "n": 13497,
+    "K": 15,
+    "n_sources": 21,
+    "self_check": {
+      "clip_NMI_mean": 0.2746,
+      "clip_NMI_sd": 0.0008,
+      "target": 0.2746,
+      "tol": 0.01,
+      "pass": true
+    },
+    "clip": {
+      "NMI_mean": 0.2746,
+      "NMI_sd": 0.0008,
+      "AMI_mean": 0.2725,
+      "AMI_sd": 0.0008,
+      "within_source_NMI": 0.1748
+    },
+    "geo": {
+      "NMI_mean": 0.1016,
+      "NMI_sd": 0.002,
+      "AMI_mean": 0.0988,
+      "AMI_sd": 0.002,
+      "within_source_NMI": 0.1302
+    },
+    "tdfm_proj_1280": {
+      "NMI_mean": 0.1937,
+      "NMI_sd": 0.0016,
+      "AMI_mean": 0.1913,
+      "AMI_sd": 0.0016,
+      "within_source_NMI": 0.154
+    },
+    "tdfm_pooled_256": {
+      "NMI_mean": 0.204,
+      "NMI_sd": 0.0048,
+      "AMI_mean": 0.2016,
+      "AMI_sd": 0.0048,
+      "within_source_NMI": 0.1541
+    }
+  }
+}

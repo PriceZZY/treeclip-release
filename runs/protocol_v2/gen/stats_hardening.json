@@ -1,0 +1,50 @@
+{
+  "note": "Track-1 stats hardening: AMI + pre-specified source-subspace-removal recluster + Holm MCC",
+  "for": {
+    "K": 15,
+    "n": 13497,
+    "n_sources": 21,
+    "AMI_clip": 0.2725,
+    "AMI_geo": 0.0988,
+    "AMI_advantage": 0.1736,
+    "NMI_clip_raw_selfcheck": 0.2746,
+    "source_subspace_rank_removed": 20,
+    "NMI_clip_after_source_removal": 0.1302,
+    "NMI_clip_after_source_removal_sd": 0.0013,
+    "source_balacc_before": 0.3951,
+    "source_balacc_after_removal": 0.0264,
+    "source_balacc_chance": 0.0476
+  },
+  "biodiv": {
+    "K": 6,
+    "n": 2250,
+    "n_sources": 3,
+    "AMI_clip": 0.3476,
+    "AMI_geo": 0.0973,
+    "AMI_advantage": 0.2503,
+    "NMI_clip_raw_selfcheck": 0.3501,
+    "source_subspace_rank_removed": 2,
+    "NMI_clip_after_source_removal": 0.0547,
+    "NMI_clip_after_source_removal_sd": 0.0002,
+    "source_balacc_before": 0.6076,
+    "source_balacc_after_removal": 0.3333,
+    "source_balacc_chance": 0.3333
+  },
+  "holm_family_pvalues": {
+    "perm_test:for": 0.0001,
+    "perm_test:biodiv": 0.0001,
+    "perm_test_dino:for": 0.0001,
+    "perm_test_dino:biodiv": 0.0001,
+    "imagenet:for": 0.0001,
+    "imagenet:biodiv": 0.0001
+  },
+  "holm_adjusted": {
+    "perm_test:for": 0.0006,
+    "perm_test:biodiv": 0.0006,
+    "perm_test_dino:for": 0.0006,
+    "perm_test_dino:biodiv": 0.0006,
+    "imagenet:for": 0.0006,
+    "imagenet:biodiv": 0.0006
+  },
+  "holm_all_survive_0.05": true
+}

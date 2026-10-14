@@ -1,0 +1,18 @@
+{
+  "dataset": "for",
+  "n_perm": 10000,
+  "K": 15,
+  "n": 13497,
+  "ImageNet": {
+    "observed_delta_NMI": 0.1059,
+    "null_delta_mean": -9e-05,
+    "null_delta_p95": 0.0006,
+    "p_value": 0.0001
+  },
+  "random": {
+    "observed_delta_NMI": 0.0052,
+    "null_delta_mean": -0.0001,
+    "null_delta_p95": 0.0006,
+    "p_value": 0.0001
+  }
+}

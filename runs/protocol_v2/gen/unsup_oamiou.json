@@ -1,0 +1,28 @@
+{
+  "FOR-species20K": {
+    "CLIP_hungarian": {
+      "macroF1": 0.2086,
+      "OA": 0.2708,
+      "mIoU": 0.1253
+    },
+    "geo_hungarian": {
+      "macroF1": 0.1349,
+      "OA": 0.2023,
+      "mIoU": 0.0758
+    },
+    "majority_or_random": 0.067
+  },
+  "BioDiv": {
+    "CLIP_hungarian": {
+      "macroF1": 0.2815,
+      "OA": 0.3978,
+      "mIoU": 0.1847
+    },
+    "geo_hungarian": {
+      "macroF1": 0.2037,
+      "OA": 0.3262,
+      "mIoU": 0.1237
+    },
+    "majority_or_random": 0.167
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "dataset": "for",
+  "n": 13497,
+  "true_K": 15,
+  "fix_K_methods": {
+    "kmeans": {
+      "DINOv2_11d": {
+        "NMI": {
+          "mean": 0.2718,
+          "std": 0.0028
+        },
+        "hungarian_acc": {
+          "mean": 0.239,
+          "std": 0.0051
+        },
+        "n_seeds": 5
+      },
+      "geo_11d": {
+        "NMI": {
+          "mean": 0.1026,
+          "std": 0.0018
+        },
+        "hungarian_acc": {
+          "mean": 0.1997,
+          "std": 0.0039
+        },
+        "n_seeds": 5
+      }
+    },
+    "gmm": {
+      "DINOv2_11d": {
+        "NMI": {
+          "mean": 0.2814,
+          "std": 0.0029
+        },
+        "hungarian_acc": {
+          "mean": 0.2568,
+          "std": 0.0098
+        },
+        "n_seeds": 5
+      },
+      "geo_11d": {
+        "NMI": {
+          "mean": 0.0916,
+          "std": 0.002
+        },
+        "hungarian_acc": {
+          "mean": 0.1607,
+          "std": 0.0012
+        },
+        "n_seeds": 5
+      }
+    },
+    "spectral": {
+      "DINOv2_11d": {
+        "NMI": {
+          "mean": 0.2922,
+          "std": 0.0017
+        },
+        "hungarian_acc": {
+          "mean": 0.2709,
+          "std": 0.0023
+        },
+        "n_seeds": 5,
+        "subsampled_n": 4000
+      },
+      "geo_11d": {
+        "NMI": {
+          "mean": 0.1359,
+          "std": 0.0001
+        },
+        "hungarian_acc": {
+          "mean": 0.2118,
+          "std": 0.0001
+        },
+        "n_seeds": 5,
+        "subsampled_n": 4000
+      }
+    },
+    "agglo": {
+      "DINOv2_11d": {
+        "NMI": {
+          "mean": 0.2819,
+          "std": 0.0
+        },
+        "hungarian_acc": {
+          "mean": 0.2948,
+          "std": 0.0
+        },
+        "n_seeds": 1,
+        "subsampled_n": 4000
+      },
+      "geo_11d": {
+        "NMI": {
+          "mean": 0.1219,
+          "std": 0.0
+        },
+        "hungarian_acc": {
+          "mean": 0.2115,
+          "std": 0.0
+        },
+        "n_seeds": 1,
+        "subsampled_n": 4000
+      }
+    }
+  },
+  "estimate_K_methods": {
+    "hdbscan": {
+      "DINOv2_11d": {
+        "k_hat": 4,
+        "true_k": 15,
+        "noise_frac": 0.633,
+        "NMI": 0.1932,
+        "AMI": 0.1921
+      }
+    },
+    "dpgmm": {
+      "DINOv2_11d": {
+        "k_hat": 39,
+        "true_k": 15,
+        "NMI": 0.3005,
+        "AMI": 0.2954
+      }
+    }
+  }
+}

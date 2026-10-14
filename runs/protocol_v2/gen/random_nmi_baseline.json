@@ -1,0 +1,6 @@
+{
+  "description": "Random-cluster NMI baseline (chance level for NMI), 20 random label assignments per dataset",
+  "method": "RandomState(0..19).randint(0,K,n), NMI vs true species labels",
+  "FOR-species20K": {"K": 15, "n": 13497, "random_NMI_mean": 0.0029, "random_NMI_max": 0.00346},
+  "BioDiv-ULS": {"K": 6, "n": 2250, "random_NMI_mean": 0.00342, "random_NMI_max": 0.0046}
+}

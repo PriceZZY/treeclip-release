@@ -1,0 +1,303 @@
+{
+  "n_seeds": 15,
+  "for": {
+    "n_blocks_total": 21,
+    "n_blocks_used": 15,
+    "weighted_delta": 0.0436,
+    "unweighted_delta": 0.0438,
+    "n_blocks_delta_positive": 13,
+    "per_block": [
+      {
+        "block": "BlueCat_a",
+        "n": 2541,
+        "K": 5,
+        "skipped": false,
+        "clip": 0.0295,
+        "geo": 0.0487,
+        "delta": -0.0192
+      },
+      {
+        "block": "BlueCat_b",
+        "n": 1357,
+        "K": 3,
+        "skipped": false,
+        "clip": 0.0025,
+        "geo": 0.0022,
+        "delta": 0.0003
+      },
+      {
+        "block": "Calders_2022",
+        "n": 613,
+        "K": 5,
+        "skipped": false,
+        "clip": 0.0633,
+        "geo": 0.0344,
+        "delta": 0.0289
+      },
+      {
+        "block": "FORinstance_CULS",
+        "n": 43,
+        "K": 1,
+        "skipped": true
+      },
+      {
+        "block": "FORinstance_NIBIO",
+        "n": 443,
+        "K": 4,
+        "skipped": false,
+        "clip": 0.1688,
+        "geo": 0.1206,
+        "delta": 0.0481
+      },
+      {
+        "block": "Frey_2022",
+        "n": 426,
+        "K": 6,
+        "skipped": false,
+        "clip": 0.3484,
+        "geo": 0.2717,
+        "delta": 0.0767
+      },
+      {
+        "block": "Junttila",
+        "n": 43,
+        "K": 1,
+        "skipped": true
+      },
+      {
+        "block": "LAUTx",
+        "n": 361,
+        "K": 6,
+        "skipped": false,
+        "clip": 0.2583,
+        "geo": 0.2045,
+        "delta": 0.0538
+      },
+      {
+        "block": "Liang_2018",
+        "n": 366,
+        "K": 3,
+        "skipped": false,
+        "clip": 0.3638,
+        "geo": 0.3063,
+        "delta": 0.0575
+      },
+      {
+        "block": "Luke",
+        "n": 209,
+        "K": 3,
+        "skipped": false,
+        "clip": 0.4351,
+        "geo": 0.4265,
+        "delta": 0.0087
+      },
+      {
+        "block": "Mokros_2022",
+        "n": 108,
+        "K": 1,
+        "skipped": true
+      },
+      {
+        "block": "Owen_2021",
+        "n": 255,
+        "K": 1,
+        "skipped": true
+      },
+      {
+        "block": "Puliti_a",
+        "n": 791,
+        "K": 4,
+        "skipped": false,
+        "clip": 0.2331,
+        "geo": 0.2017,
+        "delta": 0.0314
+      },
+      {
+        "block": "Puliti_b",
+        "n": 595,
+        "K": 3,
+        "skipped": false,
+        "clip": 0.1596,
+        "geo": 0.1036,
+        "delta": 0.056
+      },
+      {
+        "block": "REMBIOFOR",
+        "n": 44,
+        "K": 3,
+        "skipped": false,
+        "clip": 0.2524,
+        "geo": 0.3053,
+        "delta": -0.0528
+      },
+      {
+        "block": "Saarinen_2021",
+        "n": 1958,
+        "K": 1,
+        "skipped": true
+      },
+      {
+        "block": "Seidl_2021",
+        "n": 497,
+        "K": 7,
+        "skipped": false,
+        "clip": 0.4258,
+        "geo": 0.2273,
+        "delta": 0.1985
+      },
+      {
+        "block": "UBC_2022",
+        "n": 40,
+        "K": 1,
+        "skipped": true
+      },
+      {
+        "block": "VanDeBerge_2021",
+        "n": 43,
+        "K": 2,
+        "skipped": false,
+        "clip": 0.0429,
+        "geo": 0.0001,
+        "delta": 0.0428
+      },
+      {
+        "block": "Weiser_2022a",
+        "n": 226,
+        "K": 11,
+        "skipped": false,
+        "clip": 0.3439,
+        "geo": 0.3174,
+        "delta": 0.0265
+      },
+      {
+        "block": "Weiser_2022b",
+        "n": 2538,
+        "K": 14,
+        "skipped": false,
+        "clip": 0.2671,
+        "geo": 0.1671,
+        "delta": 0.1
+      }
+    ],
+    "loo": [
+      {
+        "left_out": "BlueCat_a",
+        "weighted_delta": 0.0623
+      },
+      {
+        "left_out": "BlueCat_b",
+        "weighted_delta": 0.0497
+      },
+      {
+        "left_out": "Calders_2022",
+        "weighted_delta": 0.0445
+      },
+      {
+        "left_out": "FORinstance_NIBIO",
+        "weighted_delta": 0.0434
+      },
+      {
+        "left_out": "Frey_2022",
+        "weighted_delta": 0.0423
+      },
+      {
+        "left_out": "LAUTx",
+        "weighted_delta": 0.0433
+      },
+      {
+        "left_out": "Liang_2018",
+        "weighted_delta": 0.0431
+      },
+      {
+        "left_out": "Luke",
+        "weighted_delta": 0.0443
+      },
+      {
+        "left_out": "Puliti_a",
+        "weighted_delta": 0.0445
+      },
+      {
+        "left_out": "Puliti_b",
+        "weighted_delta": 0.0429
+      },
+      {
+        "left_out": "REMBIOFOR",
+        "weighted_delta": 0.044
+      },
+      {
+        "left_out": "Seidl_2021",
+        "weighted_delta": 0.0363
+      },
+      {
+        "left_out": "VanDeBerge_2021",
+        "weighted_delta": 0.0436
+      },
+      {
+        "left_out": "Weiser_2022a",
+        "weighted_delta": 0.044
+      },
+      {
+        "left_out": "Weiser_2022b",
+        "weighted_delta": 0.0268
+      }
+    ],
+    "loo_min": 0.0268,
+    "loo_max": 0.0623,
+    "loo_min_leftout": "Weiser_2022b",
+    "largest_block": "BlueCat_a"
+  },
+  "biodiv": {
+    "n_blocks_total": 3,
+    "n_blocks_used": 3,
+    "weighted_delta": 0.2039,
+    "unweighted_delta": 0.1445,
+    "n_blocks_delta_positive": 3,
+    "per_block": [
+      {
+        "block": "AEW",
+        "n": 1332,
+        "K": 4,
+        "skipped": false,
+        "clip": 0.3707,
+        "geo": 0.0661,
+        "delta": 0.3046
+      },
+      {
+        "block": "HEW",
+        "n": 522,
+        "K": 6,
+        "skipped": false,
+        "clip": 0.0691,
+        "geo": 0.0544,
+        "delta": 0.0147
+      },
+      {
+        "block": "SEW",
+        "n": 396,
+        "K": 4,
+        "skipped": false,
+        "clip": 0.1665,
+        "geo": 0.0521,
+        "delta": 0.1143
+      }
+    ],
+    "loo": [
+      {
+        "left_out": "AEW",
+        "weighted_delta": 0.0577
+      },
+      {
+        "left_out": "HEW",
+        "weighted_delta": 0.261
+      },
+      {
+        "left_out": "SEW",
+        "weighted_delta": 0.223
+      }
+    ],
+    "loo_min": 0.0577,
+    "loo_max": 0.261,
+    "loo_min_leftout": "AEW",
+    "largest_block": "AEW"
+  }
+}

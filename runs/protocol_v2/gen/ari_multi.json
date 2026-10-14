@@ -1,0 +1,83 @@
+{
+  "n_seeds": 15,
+  "for": {
+    "K": 15,
+    "n": 13497,
+    "CLIP-512": {
+      "ARI_mean": 0.1472,
+      "ARI_std": 0.0033,
+      "RI_mean": 0.8364,
+      "RI_std": 0.0008
+    },
+    "CLIP-11d": {
+      "ARI_mean": 0.1449,
+      "ARI_std": 0.003,
+      "RI_mean": 0.8362,
+      "RI_std": 0.0005
+    },
+    "DINOv2-11d": {
+      "ARI_mean": 0.1292,
+      "ARI_std": 0.0004,
+      "RI_mean": 0.8349,
+      "RI_std": 0.0001
+    },
+    "ImageNet-11d": {
+      "ARI_mean": 0.0837,
+      "ARI_std": 0.0007,
+      "RI_mean": 0.8202,
+      "RI_std": 0.0005
+    },
+    "random-11d": {
+      "ARI_mean": 0.0465,
+      "ARI_std": 0.0014,
+      "RI_mean": 0.8118,
+      "RI_std": 0.0009
+    },
+    "geo-11d": {
+      "ARI_mean": 0.0591,
+      "ARI_std": 0.0031,
+      "RI_mean": 0.8062,
+      "RI_std": 0.0014
+    }
+  },
+  "biodiv": {
+    "K": 6,
+    "n": 2250,
+    "CLIP-512": {
+      "ARI_mean": 0.2947,
+      "ARI_std": 0.0013,
+      "RI_mean": 0.7104,
+      "RI_std": 0.0005
+    },
+    "CLIP-11d": {
+      "ARI_mean": 0.2914,
+      "ARI_std": 0.0018,
+      "RI_mean": 0.7091,
+      "RI_std": 0.0007
+    },
+    "DINOv2-11d": {
+      "ARI_mean": 0.2651,
+      "ARI_std": 0.0021,
+      "RI_mean": 0.6954,
+      "RI_std": 0.0009
+    },
+    "ImageNet-11d": {
+      "ARI_mean": 0.1622,
+      "ARI_std": 0.0055,
+      "RI_mean": 0.6541,
+      "RI_std": 0.0024
+    },
+    "random-11d": {
+      "ARI_mean": 0.0365,
+      "ARI_std": 0.0001,
+      "RI_mean": 0.6064,
+      "RI_std": 0.0001
+    },
+    "geo-11d": {
+      "ARI_mean": 0.0731,
+      "ARI_std": 0.0004,
+      "RI_mean": 0.6057,
+      "RI_std": 0.0002
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "dataset": "FOR-species20K",
+  "n": 13497,
+  "k_species": 15,
+  "n_blocks": 21,
+  "note": "unsupervised K-means + Hungarian match; labels used ONLY for post-hoc matching (optimistic upper bound)",
+  "majority_f1": 0.0262,
+  "CLIP_global": {
+    "macro_f1": 0.2086,
+    "oa": 0.2708,
+    "nmi": 0.265
+  },
+  "geo_sf_global": {
+    "macro_f1": 0.1433,
+    "oa": 0.2297,
+    "nmi": 0.1214
+  },
+  "CLIP_per_block": {
+    "macro_f1": 0.3267,
+    "oa": 0.3731
+  },
+  "geo_sf_per_block": {
+    "macro_f1": 0.3031,
+    "oa": 0.3826
+  }
+}

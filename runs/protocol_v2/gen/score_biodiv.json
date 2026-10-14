@@ -1,0 +1,98 @@
+{
+  "dataset": "BioDiv-3DTrees-ULS",
+  "block": "region",
+  "n": 2250,
+  "n_species": 6,
+  "n_blocks": 3,
+  "analyzable_species": 6,
+  "dominant_frac": 0.447,
+  "CLIP_linear": {
+    "per_fold": [
+      0.1164,
+      0.2633,
+      0.1795
+    ],
+    "pooled_f1": 0.1888,
+    "pooled_oa": 0.3191,
+    "ci": [
+      0.1659,
+      0.2112
+    ]
+  },
+  "geo_sf_rf": {
+    "per_fold": [
+      0.062,
+      0.1513,
+      0.1637
+    ],
+    "pooled_f1": 0.0987,
+    "pooled_oa": 0.304,
+    "ci": [
+      0.089,
+      0.1086
+    ]
+  },
+  "geo_sz_rf": {
+    "per_fold": [
+      0.0862,
+      0.1626,
+      0.3351
+    ],
+    "pooled_f1": 0.1151,
+    "pooled_oa": 0.3178,
+    "ci": [
+      0.0989,
+      0.1344
+    ]
+  },
+  "geo_sf_svm": {
+    "per_fold": [
+      0.0705,
+      0.1443,
+      0.1686
+    ],
+    "pooled_f1": 0.1334,
+    "pooled_oa": 0.1951,
+    "ci": [
+      0.1188,
+      0.1463
+    ]
+  },
+  "majority_f1": 0.04,
+  "geo_features_source": "biodiv_features.npz",
+  "best_geo": "geo_sz_rf",
+  "delta_clip_minus_bestgeo": 0.0737,
+  "CLIP_pca_matched": {
+    "per_fold": [
+      0.0526,
+      0.1909,
+      0.1733
+    ],
+    "pooled_f1": 0.1439,
+    "pooled_oa": 0.2004,
+    "ci": [
+      0.1268,
+      0.1591
+    ]
+  },
+  "pca_dim": 17,
+  "delta_clip_pca_minus_bestgeo": 0.0288,
+  "wilcoxon_p": 1.0,
+  "wilcoxon_p_pca_matched": 0.5,
+  "p_bonferroni_x3": 1.0,
+  "p_bonferroni_x2": 1.0,
+  "jackknife_p_range": [
+    0.5,
+    1.0
+  ],
+  "clip_learning_curve": {
+    "0.4": 0.1488,
+    "0.6": 0.1488,
+    "0.8": 0.1488,
+    "1.0": 0.1888
+  },
+  "saturation_slope": 0.04,
+  "saturated": false,
+  "verdict": "INCONCLUSIVE (underpowered)",
+  "verdict_bonferroni_corrected": "TIE/INCONCLUSIVE"
+}

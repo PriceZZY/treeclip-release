@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "n_total": 13497,
+    "n_analyzable_species": 15,
+    "n_sources": 21,
+    "threshold": "n>=30 & >=2 sources"
+  },
+  "geo_sf_rf": {
+    "macro_f1": 0.0623,
+    "oa": 0.1875,
+    "majority_f1": 0.012,
+    "n_test": 13497,
+    "f1_ci": [
+      0.1808,
+      0.1943
+    ],
+    "maj_ci": [
+      0.0941,
+      0.1043
+    ]
+  },
+  "geo_sz_rf": {
+    "macro_f1": 0.0949,
+    "oa": 0.2132,
+    "majority_f1": 0.012,
+    "n_test": 13497,
+    "f1_ci": [
+      0.2062,
+      0.2203
+    ],
+    "maj_ci": [
+      0.0941,
+      0.1043
+    ]
+  },
+  "learning_curve": {
+    "0.2": {
+      "mean": 0.0191,
+      "std": 0.0259
+    },
+    "0.4": {
+      "mean": 0.0778,
+      "std": 0.048
+    },
+    "0.6": {
+      "mean": 0.0658,
+      "std": 0.0038
+    },
+    "0.8": {
+      "mean": 0.0632,
+      "std": 0.0119
+    },
+    "1.0": {
+      "mean": 0.0623,
+      "std": 0.0
+    }
+  },
+  "saturation": {
+    "last_step_gain": -0.0009,
+    "saturated": true,
+    "verdict": "SATURATED (adequately powered)"
+  }
+}

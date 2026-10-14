@@ -1,0 +1,47 @@
+{
+  "dataset": "biodiv",
+  "n_blocks": 3,
+  "n_seeds": 15,
+  "within_source_NMI_geo_11d_mean": 0.0609,
+  "CLIP": {
+    "within_source_NMI_mean": 0.2648,
+    "minus_geo_mean": 0.2039,
+    "minus_geo_ci95": [
+      0.2032,
+      0.2046
+    ],
+    "minus_geo_frac_positive": 1.0,
+    "within_species_source_balacc": 0.6092
+  },
+  "DINOv2": {
+    "within_source_NMI_mean": 0.2409,
+    "minus_geo_mean": 0.18,
+    "minus_geo_ci95": [
+      0.1793,
+      0.1806
+    ],
+    "minus_geo_frac_positive": 1.0,
+    "within_species_source_balacc": 0.5926
+  },
+  "ImageNet": {
+    "within_source_NMI_mean": 0.1466,
+    "minus_geo_mean": 0.0857,
+    "minus_geo_ci95": [
+      0.0796,
+      0.097
+    ],
+    "minus_geo_frac_positive": 1.0,
+    "within_species_source_balacc": 0.6388
+  },
+  "random": {
+    "within_source_NMI_mean": 0.0563,
+    "minus_geo_mean": -0.0046,
+    "minus_geo_ci95": [
+      -0.0051,
+      -0.004
+    ],
+    "minus_geo_frac_positive": 0.0,
+    "within_species_source_balacc": 0.4784
+  },
+  "within_species_source_balacc_geo": 0.5234
+}

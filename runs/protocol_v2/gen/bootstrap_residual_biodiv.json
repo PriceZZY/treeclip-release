@@ -1,0 +1,21 @@
+{
+  "dataset": "biodiv",
+  "B": 1000,
+  "kmeans_seed": 0,
+  "n_blocks": 3,
+  "n_trees": 2250,
+  "point_estimate": 0.2021,
+  "bootstrap_mean": 0.1962,
+  "bootstrap_median": 0.1966,
+  "ci95": [
+    0.1617,
+    0.23
+  ],
+  "frac_positive": 1.0,
+  "canonical_15seed_mean_residual": 0.2039,
+  "canonical_15seed_ci95_seedjitter": [
+    0.2032,
+    0.2046
+  ],
+  "method": "DATA-LEVEL bootstrap: resample TREES with replacement WITHIN each source block (preserves block structure), recompute within-source CLIP(PCA-11d)-minus-geo(11d) NMI residual at FIXED KMeans seed=0, so the measured spread is DATA sampling not init jitter. BioDiv: only 3 region blocks -> a block-level bootstrap is uninformative, so we resample TREES with replacement within each of the 3 regions (tree-level)."
+}

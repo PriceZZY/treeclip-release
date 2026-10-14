@@ -1,0 +1,35 @@
+{
+  "n_seeds": 15,
+  "for": {
+    "n_blocks": 21,
+    "within_source_NMI_CLIP_11d_mean": 0.1735,
+    "within_source_NMI_DINOv2_11d_mean": 0.1872,
+    "within_source_NMI_geo_11d_mean": 0.1299,
+    "within_source_DINO_minus_geo_mean": 0.0573,
+    "within_source_DINO_minus_geo_ci95": [
+      0.0567,
+      0.0579
+    ],
+    "within_source_DINO_minus_geo_frac_positive": 1.0,
+    "within_source_CLIP_minus_geo_mean": 0.0436,
+    "within_species_source_balacc_DINOv2_11d": 0.7295,
+    "within_species_source_balacc_CLIP_11d": 0.7349,
+    "within_species_source_balacc_geo_11d": 0.4977
+  },
+  "biodiv": {
+    "n_blocks": 3,
+    "within_source_NMI_CLIP_11d_mean": 0.2648,
+    "within_source_NMI_DINOv2_11d_mean": 0.2409,
+    "within_source_NMI_geo_11d_mean": 0.0609,
+    "within_source_DINO_minus_geo_mean": 0.18,
+    "within_source_DINO_minus_geo_ci95": [
+      0.1793,
+      0.1806
+    ],
+    "within_source_DINO_minus_geo_frac_positive": 1.0,
+    "within_source_CLIP_minus_geo_mean": 0.2039,
+    "within_species_source_balacc_DINOv2_11d": 0.5926,
+    "within_species_source_balacc_CLIP_11d": 0.6092,
+    "within_species_source_balacc_geo_11d": 0.5234
+  }
+}

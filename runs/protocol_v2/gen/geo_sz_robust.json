@@ -1,0 +1,49 @@
+{
+  "note": "geo_sz = repo-cached size-AWARE descriptor (X_sz, 17-d; geo_sz_17d in gen_score.py). Same 15-seed StandardScaler->KMeans harness as headline; geometry at native dim, CLIP PCA-11d for matched/within-source arm.",
+  "for": {
+    "K": 15,
+    "n": 13497,
+    "n_blocks": 21,
+    "geo_sz_dim": 17,
+    "geo_sf_dim": 11,
+    "n_seeds": 15,
+    "global_NMI": {
+      "CLIP_512": 0.2777,
+      "CLIP_matched_11d": 0.2746,
+      "geo_sf_11d_size_invariant": 0.1016,
+      "geo_sz_17d_size_aware": 0.2162
+    },
+    "within_source_NMI": {
+      "CLIP_11d": 0.1735,
+      "geo_sf_11d_size_invariant": 0.1299,
+      "geo_sz_17d_size_aware": 0.143
+    },
+    "clip_leads_geo_sz_global": true,
+    "clip_leads_geo_sz_within_source": true,
+    "clip_minus_geo_sz_global": 0.0615,
+    "clip_minus_geo_sz_within_source": 0.0305
+  },
+  "biodiv": {
+    "K": 6,
+    "n": 2250,
+    "n_blocks": 3,
+    "geo_sz_dim": 17,
+    "geo_sf_dim": 11,
+    "n_seeds": 15,
+    "global_NMI": {
+      "CLIP_512": 0.3551,
+      "CLIP_matched_11d": 0.3502,
+      "geo_sf_11d_size_invariant": 0.101,
+      "geo_sz_17d_size_aware": 0.1731
+    },
+    "within_source_NMI": {
+      "CLIP_11d": 0.2648,
+      "geo_sf_11d_size_invariant": 0.0609,
+      "geo_sz_17d_size_aware": 0.0643
+    },
+    "clip_leads_geo_sz_global": true,
+    "clip_leads_geo_sz_within_source": true,
+    "clip_minus_geo_sz_global": 0.182,
+    "clip_minus_geo_sz_within_source": 0.2005
+  }
+}

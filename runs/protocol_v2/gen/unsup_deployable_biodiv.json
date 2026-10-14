@@ -1,0 +1,26 @@
+{
+  "dataset": "BioDiv-3DTrees-ULS",
+  "n": 2250,
+  "k_species": 6,
+  "n_blocks": 3,
+  "protocol": "DEPLOYABLE unsupervised: K-means on train, cluster labelled by train majority, predict test via frozen map (closed-book, spatial CV) \u2014 comparable to supervised",
+  "CLIP_deployable_unsup": {
+    "pooled_f1": 0.0805,
+    "pooled_oa": 0.3089,
+    "per_fold": [
+      0.057,
+      0.1328,
+      0.143
+    ]
+  },
+  "geo_sf_deployable_unsup": {
+    "pooled_f1": 0.0648,
+    "pooled_oa": 0.2173,
+    "per_fold": [
+      0.0824,
+      0.0751,
+      0.1404
+    ]
+  },
+  "majority_f1": 0.1029
+}

@@ -1,0 +1,62 @@
+{
+  "dataset": "FOR-species20K",
+  "n": 13497,
+  "k_species": 15,
+  "n_blocks": 21,
+  "protocol": "DEPLOYABLE unsupervised: K-means on train, cluster labelled by train majority, predict test via frozen map (closed-book, spatial CV) \u2014 comparable to supervised",
+  "CLIP_deployable_unsup": {
+    "pooled_f1": 0.0617,
+    "pooled_oa": 0.2158,
+    "per_fold": [
+      0.0,
+      0.0734,
+      0.0,
+      0.4881,
+      0.174,
+      0.0989,
+      0.0,
+      0.1174,
+      0.2163,
+      0.3785,
+      0.3188,
+      0.1385,
+      0.1905,
+      0.1162,
+      0.0,
+      0.0752,
+      0.032,
+      0.0,
+      0.0,
+      0.1054,
+      0.0718
+    ]
+  },
+  "geo_sf_deployable_unsup": {
+    "pooled_f1": 0.039,
+    "pooled_oa": 0.1447,
+    "per_fold": [
+      0.0,
+      0.0229,
+      0.0,
+      1.0,
+      0.0401,
+      0.1255,
+      0.0,
+      0.1223,
+      0.2862,
+      0.4155,
+      1.0,
+      0.086,
+      0.2246,
+      0.1114,
+      0.0,
+      0.024,
+      0.0989,
+      0.0,
+      0.0,
+      0.1515,
+      0.0556
+    ]
+  },
+  "majority_f1": 0.0262
+}

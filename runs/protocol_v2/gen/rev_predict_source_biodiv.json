@@ -1,0 +1,152 @@
+{
+  "dataset": "BioDiv-3DTrees-ULS",
+  "n": 2250,
+  "n_species": 6,
+  "analyzable_species": [
+    "Acer_pseudoplatanus",
+    "Carpinus_betulus",
+    "Fagus_sylvatica",
+    "Fraxinus_excelsior",
+    "Picea_abies",
+    "Quercus_spec"
+  ],
+  "predict_source": {
+    "region": {
+      "n_classes": 3,
+      "CLIP_512d": {
+        "K": 3,
+        "macro_f1": 0.7109,
+        "balanced_acc": 0.7184,
+        "oa": 0.7809,
+        "chance_oa": 0.3333,
+        "chance_balanced": 0.3333
+      },
+      "geo_sf_11d": {
+        "K": 3,
+        "macro_f1": 0.5647,
+        "balanced_acc": 0.5821,
+        "oa": 0.6596,
+        "chance_oa": 0.3333,
+        "chance_balanced": 0.3333
+      },
+      "geo_sz_17d": {
+        "K": 3,
+        "macro_f1": 0.6485,
+        "balanced_acc": 0.6643,
+        "oa": 0.7231,
+        "chance_oa": 0.3333,
+        "chance_balanced": 0.3333
+      }
+    },
+    "plot_ep": {
+      "n_classes": 26,
+      "CLIP_512d": {
+        "K": 26,
+        "macro_f1": 0.3867,
+        "balanced_acc": 0.3897,
+        "oa": 0.5516,
+        "chance_oa": 0.0385,
+        "chance_balanced": 0.0385
+      },
+      "geo_sf_11d": {
+        "K": 26,
+        "macro_f1": 0.1193,
+        "balanced_acc": 0.1654,
+        "oa": 0.2227,
+        "chance_oa": 0.0385,
+        "chance_balanced": 0.0385
+      },
+      "geo_sz_17d": {
+        "K": 26,
+        "macro_f1": 0.2095,
+        "balanced_acc": 0.2474,
+        "oa": 0.3698,
+        "chance_oa": 0.0385,
+        "chance_balanced": 0.0385
+      }
+    }
+  },
+  "within_species_source": {
+    "CLIP_512d": {
+      "pooled": {
+        "mean_balanced_acc": 0.6424,
+        "mean_chance": 0.2933,
+        "n_species_tested": 5,
+        "lift_over_chance": 0.3491
+      },
+      "per_species": {
+        "Acer_pseudoplatanus": {
+          "n": 43,
+          "n_sources": 2,
+          "balanced_acc": 0.7744,
+          "chance": 0.5
+        },
+        "Fagus_sylvatica": {
+          "n": 851,
+          "n_sources": 20,
+          "balanced_acc": 0.3745,
+          "chance": 0.05
+        },
+        "Fraxinus_excelsior": {
+          "n": 51,
+          "n_sources": 3,
+          "balanced_acc": 0.6955,
+          "chance": 0.3333
+        },
+        "Picea_abies": {
+          "n": 994,
+          "n_sources": 4,
+          "balanced_acc": 0.6779,
+          "chance": 0.25
+        },
+        "Quercus_spec": {
+          "n": 145,
+          "n_sources": 3,
+          "balanced_acc": 0.6897,
+          "chance": 0.3333
+        }
+      }
+    },
+    "geo_sz_17d": {
+      "pooled": {
+        "mean_balanced_acc": 0.6067,
+        "mean_chance": 0.2933,
+        "n_species_tested": 5,
+        "lift_over_chance": 0.3134
+      },
+      "per_species": {
+        "Acer_pseudoplatanus": {
+          "n": 43,
+          "n_sources": 2,
+          "balanced_acc": 0.8013,
+          "chance": 0.5
+        },
+        "Fagus_sylvatica": {
+          "n": 851,
+          "n_sources": 20,
+          "balanced_acc": 0.2492,
+          "chance": 0.05
+        },
+        "Fraxinus_excelsior": {
+          "n": 51,
+          "n_sources": 3,
+          "balanced_acc": 0.7241,
+          "chance": 0.3333
+        },
+        "Picea_abies": {
+          "n": 994,
+          "n_sources": 4,
+          "balanced_acc": 0.7278,
+          "chance": 0.25
+        },
+        "Quercus_spec": {
+          "n": 145,
+          "n_sources": 3,
+          "balanced_acc": 0.5312,
+          "chance": 0.3333
+        }
+      }
+    },
+    "interpretation": "If CLIP within-species balanced-acc >> chance AND >> geo, the render encodes non-structural source/site cues."
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "dataset": "FOR-species20K",
+  "n": 13497,
+  "n_species": 15,
+  "analyzable_species": [
+    "Abies_alba",
+    "Acer_campestre",
+    "Acer_pseudoplatanus",
+    "Betula_pendula",
+    "Carpinus_betulus",
+    "Crataegus_monogyna",
+    "Fagus_sylvatica",
+    "Fraxinus_excelsior",
+    "Larix_decidua",
+    "Picea_abies",
+    "Pinus_sylvestris",
+    "Pseudotsuga_menziesii",
+    "Quercus_petraea",
+    "Quercus_robur",
+    "Quercus_rubra"
+  ],
+  "predict_source": {
+    "source_dataset": {
+      "n_classes": 21,
+      "CLIP_512d": {
+        "K": 21,
+        "macro_f1": 0.7859,
+        "balanced_acc": 0.8041,
+        "oa": 0.8628,
+        "chance_oa": 0.0476,
+        "chance_balanced": 0.0476
+      },
+      "geo_sf_11d": {
+        "K": 21,
+        "macro_f1": 0.2581,
+        "balanced_acc": 0.4104,
+        "oa": 0.3174,
+        "chance_oa": 0.0476,
+        "chance_balanced": 0.0476
+      },
+      "geo_sz_17d": {
+        "K": 21,
+        "macro_f1": 0.3797,
+        "balanced_acc": 0.5278,
+        "oa": 0.4876,
+        "chance_oa": 0.0476,
+        "chance_balanced": 0.0476
+      }
+    },
+    "sensor_data_type": {
+      "n_classes": 3,
+      "CLIP_512d": {
+        "K": 3,
+        "macro_f1": 0.9472,
+        "balanced_acc": 0.9572,
+        "oa": 0.9681,
+        "chance_oa": 0.3333,
+        "chance_balanced": 0.3333
+      },
+      "geo_sf_11d": {
+        "K": 3,
+        "macro_f1": 0.548,
+        "balanced_acc": 0.6458,
+        "oa": 0.5885,
+        "chance_oa": 0.3333,
+        "chance_balanced": 0.3333
+      },
+      "geo_sz_17d": {
+        "K": 3,
+        "macro_f1": 0.5795,
+        "balanced_acc": 0.6678,
+        "oa": 0.6204,
+        "chance_oa": 0.3333,
+        "chance_balanced": 0.3333
+      }
+    }
+  },
+  "within_species_source": {
+    "CLIP_512d": {
+      "pooled": {
+        "mean_balanced_acc": 0.9125,
+        "mean_chance": 0.3044,
+        "n_species_tested": 15,
+        "lift_over_chance": 0.6081
+      },
+      "per_species": {
+        "Abies_alba": {
+          "n": 95,
+          "n_sources": 3,
+          "balanced_acc": 0.9933,
+          "chance": 0.3333
+        },
+        "Acer_campestre": {
+          "n": 1238,
+          "n_sources": 2,
+          "balanced_acc": 1.0,
+          "chance": 0.5
+        },
+        "Acer_pseudoplatanus": {
+          "n": 576,
+          "n_sources": 3,
+          "balanced_acc": 0.9332,
+          "chance": 0.3333
+        },
+        "Betula_pendula": {
+          "n": 718,
+          "n_sources": 6,
+          "balanced_acc": 0.878,
+          "chance": 0.1667
+        },
+        "Carpinus_betulus": {
+          "n": 1239,
+          "n_sources": 2,
+          "balanced_acc": 0.9794,
+          "chance": 0.5
+        },
+        "Crataegus_monogyna": {
+          "n": 229,
+          "n_sources": 2,
+          "balanced_acc": 0.8812,
+          "chance": 0.5
+        },
+        "Fagus_sylvatica": {
+          "n": 2482,
+          "n_sources": 5,
+          "balanced_acc": 0.8782,
+          "chance": 0.2
+        },
+        "Fraxinus_excelsior": {
+          "n": 116,
+          "n_sources": 3,
+          "balanced_acc": 0.9428,
+          "chance": 0.3333
+        },
+        "Larix_decidua": {
+          "n": 93,
+          "n_sources": 4,
+          "balanced_acc": 0.8616,
+          "chance": 0.25
+        },
+        "Picea_abies": {
+          "n": 1983,
+          "n_sources": 12,
+          "balanced_acc": 0.838,
+          "chance": 0.0833
+        },
+        "Pinus_sylvestris": {
+          "n": 3291,
+          "n_sources": 12,
+          "balanced_acc": 0.8748,
+          "chance": 0.0833
+        },
+        "Pseudotsuga_menziesii": {
+          "n": 658,
+          "n_sources": 5,
+          "balanced_acc": 0.9261,
+          "chance": 0.2
+        },
+        "Quercus_petraea": {
+          "n": 361,
+          "n_sources": 2,
+          "balanced_acc": 0.8602,
+          "chance": 0.5
+        },
+        "Quercus_robur": {
+          "n": 177,
+          "n_sources": 4,
+          "balanced_acc": 0.9437,
+          "chance": 0.25
+        },
+        "Quercus_rubra": {
+          "n": 160,
+          "n_sources": 3,
+          "balanced_acc": 0.8973,
+          "chance": 0.3333
+        }
+      }
+    },
+    "geo_sz_17d": {
+      "pooled": {
+        "mean_balanced_acc": 0.7959,
+        "mean_chance": 0.3044,
+        "n_species_tested": 15,
+        "lift_over_chance": 0.4915
+      },
+      "per_species": {
+        "Abies_alba": {
+          "n": 95,
+          "n_sources": 3,
+          "balanced_acc": 0.9041,
+          "chance": 0.3333
+        },
+        "Acer_campestre": {
+          "n": 1238,
+          "n_sources": 2,
+          "balanced_acc": 0.656,
+          "chance": 0.5
+        },
+        "Acer_pseudoplatanus": {
+          "n": 576,
+          "n_sources": 3,
+          "balanced_acc": 0.5559,
+          "chance": 0.3333
+        },
+        "Betula_pendula": {
+          "n": 718,
+          "n_sources": 6,
+          "balanced_acc": 0.709,
+          "chance": 0.1667
+        },
+        "Carpinus_betulus": {
+          "n": 1239,
+          "n_sources": 2,
+          "balanced_acc": 0.8877,
+          "chance": 0.5
+        },
+        "Crataegus_monogyna": {
+          "n": 229,
+          "n_sources": 2,
+          "balanced_acc": 0.858,
+          "chance": 0.5
+        },
+        "Fagus_sylvatica": {
+          "n": 2482,
+          "n_sources": 5,
+          "balanced_acc": 0.6935,
+          "chance": 0.2
+        },
+        "Fraxinus_excelsior": {
+          "n": 116,
+          "n_sources": 3,
+          "balanced_acc": 0.7467,
+          "chance": 0.3333
+        },
+        "Larix_decidua": {
+          "n": 93,
+          "n_sources": 4,
+          "balanced_acc": 0.9139,
+          "chance": 0.25
+        },
+        "Picea_abies": {
+          "n": 1983,
+          "n_sources": 12,
+          "balanced_acc": 0.6491,
+          "chance": 0.0833
+        },
+        "Pinus_sylvestris": {
+          "n": 3291,
+          "n_sources": 12,
+          "balanced_acc": 0.7114,
+          "chance": 0.0833
+        },
+        "Pseudotsuga_menziesii": {
+          "n": 658,
+          "n_sources": 5,
+          "balanced_acc": 0.9144,
+          "chance": 0.2
+        },
+        "Quercus_petraea": {
+          "n": 361,
+          "n_sources": 2,
+          "balanced_acc": 0.8439,
+          "chance": 0.5
+        },
+        "Quercus_robur": {
+          "n": 177,
+          "n_sources": 4,
+          "balanced_acc": 0.9304,
+          "chance": 0.25
+        },
+        "Quercus_rubra": {
+          "n": 160,
+          "n_sources": 3,
+          "balanced_acc": 0.9651,
+          "chance": 0.3333
+        }
+      }
+    },
+    "interpretation": "If CLIP within-species balanced-acc >> chance AND >> geo, the render encodes non-structural source/site cues."
+  }
+}

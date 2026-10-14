@@ -1,0 +1,46 @@
+{
+  "n_seeds": 15,
+  "knn": 15,
+  "for": {
+    "true_K": 15,
+    "CLIP-11d": {
+      "K_hat_mean": 14.5,
+      "K_hat_range": [
+        13,
+        16
+      ],
+      "NMI_mean": 0.3092,
+      "NMI_std": 0.0074
+    },
+    "geo-11d": {
+      "K_hat_mean": 17.2,
+      "K_hat_range": [
+        16,
+        18
+      ],
+      "NMI_mean": 0.1323,
+      "NMI_std": 0.0056
+    }
+  },
+  "biodiv": {
+    "true_K": 6,
+    "CLIP-11d": {
+      "K_hat_mean": 10.3,
+      "K_hat_range": [
+        9,
+        11
+      ],
+      "NMI_mean": 0.3374,
+      "NMI_std": 0.006
+    },
+    "geo-11d": {
+      "K_hat_mean": 12.2,
+      "K_hat_range": [
+        11,
+        13
+      ],
+      "NMI_mean": 0.1379,
+      "NMI_std": 0.0087
+    }
+  }
+}

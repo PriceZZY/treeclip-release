@@ -1,0 +1,122 @@
+{
+  "dataset": "biodiv",
+  "n": 2250,
+  "true_K": 6,
+  "fix_K_methods": {
+    "kmeans": {
+      "DINOv2_11d": {
+        "NMI": {
+          "mean": 0.3008,
+          "std": 0.003
+        },
+        "hungarian_acc": {
+          "mean": 0.4166,
+          "std": 0.0031
+        },
+        "n_seeds": 5
+      },
+      "geo_11d": {
+        "NMI": {
+          "mean": 0.1011,
+          "std": 0.0005
+        },
+        "hungarian_acc": {
+          "mean": 0.3257,
+          "std": 0.0009
+        },
+        "n_seeds": 5
+      }
+    },
+    "gmm": {
+      "DINOv2_11d": {
+        "NMI": {
+          "mean": 0.3227,
+          "std": 0.003
+        },
+        "hungarian_acc": {
+          "mean": 0.4454,
+          "std": 0.0082
+        },
+        "n_seeds": 5
+      },
+      "geo_11d": {
+        "NMI": {
+          "mean": 0.0689,
+          "std": 0.0003
+        },
+        "hungarian_acc": {
+          "mean": 0.2907,
+          "std": 0.0003
+        },
+        "n_seeds": 5
+      }
+    },
+    "spectral": {
+      "DINOv2_11d": {
+        "NMI": {
+          "mean": 0.3443,
+          "std": 0.0004
+        },
+        "hungarian_acc": {
+          "mean": 0.3954,
+          "std": 0.0004
+        },
+        "n_seeds": 5
+      },
+      "geo_11d": {
+        "NMI": {
+          "mean": 0.0932,
+          "std": 0.0001
+        },
+        "hungarian_acc": {
+          "mean": 0.2888,
+          "std": 0.0002
+        },
+        "n_seeds": 5
+      }
+    },
+    "agglo": {
+      "DINOv2_11d": {
+        "NMI": {
+          "mean": 0.3403,
+          "std": 0.0
+        },
+        "hungarian_acc": {
+          "mean": 0.4751,
+          "std": 0.0
+        },
+        "n_seeds": 1
+      },
+      "geo_11d": {
+        "NMI": {
+          "mean": 0.0736,
+          "std": 0.0
+        },
+        "hungarian_acc": {
+          "mean": 0.2596,
+          "std": 0.0
+        },
+        "n_seeds": 1
+      }
+    }
+  },
+  "estimate_K_methods": {
+    "hdbscan": {
+      "DINOv2_11d": {
+        "k_hat": 2,
+        "true_k": 6,
+        "noise_frac": 0.535,
+        "NMI": 0.1925,
+        "AMI": 0.1906
+      }
+    },
+    "dpgmm": {
+      "DINOv2_11d": {
+        "k_hat": 15,
+        "true_k": 6,
+        "NMI": 0.3063,
+        "AMI": 0.2999
+      }
+    }
+  }
+}

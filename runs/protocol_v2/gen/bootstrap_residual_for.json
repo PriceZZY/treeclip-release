@@ -1,0 +1,21 @@
+{
+  "dataset": "for",
+  "B": 1000,
+  "kmeans_seed": 0,
+  "n_blocks": 21,
+  "n_trees": 13497,
+  "point_estimate": 0.0446,
+  "bootstrap_mean": 0.0455,
+  "bootstrap_median": 0.0451,
+  "ci95": [
+    0.0338,
+    0.0579
+  ],
+  "frac_positive": 1.0,
+  "canonical_15seed_mean_residual": 0.0436,
+  "canonical_15seed_ci95_seedjitter": [
+    0.0427,
+    0.0446
+  ],
+  "method": "DATA-LEVEL bootstrap: resample TREES with replacement WITHIN each source block (preserves block structure), recompute within-source CLIP(PCA-11d)-minus-geo(11d) NMI residual at FIXED KMeans seed=0, so the measured spread is DATA sampling not init jitter. FOR: 21 source blocks; trees resampled within each block."
+}

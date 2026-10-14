@@ -1,0 +1,12 @@
+{
+  "for": {
+    "CLIP_pca11_macroF1": 0.0924,
+    "geo_sf11_macroF1": 0.0675,
+    "delta_matched_sf": 0.0249
+  },
+  "biodiv": {
+    "CLIP_pca11_macroF1": 0.1341,
+    "geo_sf11_macroF1": 0.0987,
+    "delta_matched_sf": 0.0354
+  }
+}

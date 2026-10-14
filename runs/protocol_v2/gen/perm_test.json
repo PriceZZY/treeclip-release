@@ -1,0 +1,20 @@
+{
+  "n_perm": 10000,
+  "note": "permute species labels; stat = NMI(CLIP)-NMI(geo) at matched 11-d global clustering",
+  "for": {
+    "observed_delta_NMI": 0.1715,
+    "null_delta_mean": -0.00012,
+    "null_delta_p95": 0.00058,
+    "p_value": 0.0001,
+    "K": 15,
+    "n": 13497
+  },
+  "biodiv": {
+    "observed_delta_NMI": 0.2492,
+    "null_delta_mean": -0.00026,
+    "null_delta_p95": 0.00215,
+    "p_value": 0.0001,
+    "K": 6,
+    "n": 2250
+  }
+}

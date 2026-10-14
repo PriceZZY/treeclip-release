@@ -1,0 +1,18 @@
+{
+  "dataset": "biodiv",
+  "n_perm": 10000,
+  "K": 6,
+  "n": 2250,
+  "ImageNet": {
+    "observed_delta_NMI": 0.1084,
+    "null_delta_mean": -0.00024,
+    "null_delta_p95": 0.00216,
+    "p_value": 0.0001
+  },
+  "random": {
+    "observed_delta_NMI": -0.0419,
+    "null_delta_mean": -0.00033,
+    "null_delta_p95": 0.00206,
+    "p_value": 1.0
+  }
+}

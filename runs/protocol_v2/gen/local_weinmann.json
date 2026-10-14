@@ -1,0 +1,74 @@
+{
+  "note": "F-17 robustness: true local multi-scale Weinmann (k=10/20/40 per-point eigenfeatures, per-tree mean) vs paper's whole-tree single-scale covariance vs CLIP. Same subset/harness.",
+  "scales": [
+    10,
+    20,
+    40
+  ],
+  "biodiv": {
+    "n": 2250,
+    "K": 6,
+    "scales": [
+      10,
+      20,
+      40
+    ],
+    "dim": 21,
+    "clip": {
+      "NMI_mean": 0.3501,
+      "NMI_sd": 0.0009,
+      "AMI_mean": 0.3476,
+      "AMI_sd": 0.0009,
+      "within_source_NMI": 0.263
+    },
+    "geo_global_single_scale": {
+      "NMI_mean": 0.101,
+      "NMI_sd": 0.0003,
+      "AMI_mean": 0.0973,
+      "AMI_sd": 0.0003,
+      "within_source_NMI": 0.0609
+    },
+    "geo_local_multiscale_weinmann": {
+      "NMI_mean": 0.192,
+      "NMI_sd": 0.0001,
+      "AMI_mean": 0.1885,
+      "AMI_sd": 0.0001,
+      "within_source_NMI": 0.1595
+    },
+    "clip_beats_local_weinmann": true,
+    "clip_minus_local_weinmann_NMI": 0.1581
+  },
+  "for": {
+    "n": 13497,
+    "K": 15,
+    "scales": [
+      10,
+      20,
+      40
+    ],
+    "dim": 21,
+    "clip": {
+      "NMI_mean": 0.2746,
+      "NMI_sd": 0.0008,
+      "AMI_mean": 0.2725,
+      "AMI_sd": 0.0008,
+      "within_source_NMI": 0.1748
+    },
+    "geo_global_single_scale": {
+      "NMI_mean": 0.1016,
+      "NMI_sd": 0.002,
+      "AMI_mean": 0.0988,
+      "AMI_sd": 0.002,
+      "within_source_NMI": 0.1302
+    },
+    "geo_local_multiscale_weinmann": {
+      "NMI_mean": 0.2265,
+      "NMI_sd": 0.0004,
+      "AMI_mean": 0.2241,
+      "AMI_sd": 0.0004,
+      "within_source_NMI": 0.0832
+    },
+    "clip_beats_local_weinmann": true,
+    "clip_minus_local_weinmann_NMI": 0.0481
+  }
+}

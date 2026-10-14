@@ -1,0 +1,29 @@
+{
+  "n_timed": 100,
+  "gpu": "NVIDIA GeForce RTX 4080",
+  "laz_load": {
+    "mean_ms": 14.79,
+    "median_ms": 7.73,
+    "std_ms": 41.06
+  },
+  "voxel_downsample": {
+    "mean_ms": 212.34,
+    "median_ms": 29.96,
+    "std_ms": 815.47
+  },
+  "render6_plus_clip_encode_batched": {
+    "mean_ms": 30.01,
+    "median_ms": 28.29,
+    "std_ms": 6.54
+  },
+  "geo_descriptor": {
+    "mean_ms": 0.51,
+    "median_ms": 0.51,
+    "std_ms": 0.1
+  },
+  "pipeline_per_tree_ms_excl_io": 242.35,
+  "extrapolated_full_17707_trees_min": 71.5,
+  "extrapolated_analyzable_13497_min": 54.5,
+  "median_raw_points": 45721,
+  "median_downsampled_points": 4096
+}

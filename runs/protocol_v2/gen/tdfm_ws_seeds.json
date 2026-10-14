@@ -1,0 +1,27 @@
+{
+  "n_seeds": 15,
+  "for": {
+    "proj": {
+      "ws_NMI_mean": 0.1545,
+      "ws_NMI_std": 0.0016,
+      "ws_NMI_seed0": 0.154
+    },
+    "pooled": {
+      "ws_NMI_mean": 0.1543,
+      "ws_NMI_std": 0.0011,
+      "ws_NMI_seed0": 0.1541
+    }
+  },
+  "biodiv": {
+    "proj": {
+      "ws_NMI_mean": 0.1667,
+      "ws_NMI_std": 0.0023,
+      "ws_NMI_seed0": 0.1667
+    },
+    "pooled": {
+      "ws_NMI_mean": 0.1873,
+      "ws_NMI_std": 0.0016,
+      "ws_NMI_seed0": 0.1891
+    }
+  }
+}

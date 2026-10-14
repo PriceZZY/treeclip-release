@@ -1,0 +1,32 @@
+{
+  "for": {
+    "n_blocks": 21,
+    "global_NMI_CLIP11": 0.2751,
+    "within_source_NMI_CLIP_11d": 0.1748,
+    "within_source_NMI_geo_11d": 0.1302,
+    "source_predict_CLIP_11d": {
+      "bal_acc": 0.5495,
+      "chance": 0.0476
+    },
+    "source_predict_geo_11d": {
+      "bal_acc": 0.3143,
+      "chance": 0.0476
+    },
+    "within_source_delta_CLIP_minus_geo": 0.0446
+  },
+  "biodiv": {
+    "n_blocks": 3,
+    "global_NMI_CLIP11": 0.3502,
+    "within_source_NMI_CLIP_11d": 0.263,
+    "within_source_NMI_geo_11d": 0.0609,
+    "source_predict_CLIP_11d": {
+      "bal_acc": 0.6757,
+      "chance": 0.3333
+    },
+    "source_predict_geo_11d": {
+      "bal_acc": 0.5857,
+      "chance": 0.3333
+    },
+    "within_source_delta_CLIP_minus_geo": 0.2021
+  }
+}

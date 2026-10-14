@@ -1,0 +1,26 @@
+{
+  "dataset": "BioDiv-3DTrees-ULS",
+  "n": 2250,
+  "k_species": 6,
+  "n_blocks": 3,
+  "note": "unsupervised K-means + Hungarian match; labels used ONLY for post-hoc matching (optimistic upper bound)",
+  "majority_f1": 0.1029,
+  "CLIP_global": {
+    "macro_f1": 0.2815,
+    "oa": 0.3978,
+    "nmi": 0.3515
+  },
+  "geo_sf_global": {
+    "macro_f1": 0.2037,
+    "oa": 0.3262,
+    "nmi": 0.1009
+  },
+  "CLIP_per_block": {
+    "macro_f1": 0.3455,
+    "oa": 0.4444
+  },
+  "geo_sf_per_block": {
+    "macro_f1": 0.3173,
+    "oa": 0.4458
+  }
+}
