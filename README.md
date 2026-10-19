@@ -2,9 +2,9 @@
 
 *Do frozen 2D vision foundation-model features cluster individual-tree LiDAR point clouds by species more coherently than hand-crafted geometric descriptors — with no species labels, no training, and with acquisition-source confounding controlled?*
 
-This repository contains the complete code, configuration, result files, and the pre-registration of the frozen 3D baseline for the manuscript:
+This repository contains the complete code, configuration, result files, and the pre-registration of the frozen 3D baseline for the paper:
 
-> *Frozen 2D Foundation-Model Features Cluster Tree Species in LiDAR Point Clouds More Coherently Than the Evaluated Geometric Descriptors: A Source-Controlled Evaluation.* Revised manuscript under review at *PFG – Journal of Photogrammetry, Remote Sensing and Geoinformation Science*. Preprint: [10.21203/rs.3.rs-10238136/v1](https://doi.org/10.21203/rs.3.rs-10238136/v1).
+> *Frozen 2D Foundation-Model Features Cluster Tree Species in LiDAR Point Clouds More Coherently Than the Evaluated Geometric Descriptors: A Source-Controlled Evaluation.* Accepted at *PFG – Journal of Photogrammetry, Remote Sensing and Geoinformation Science* (Springer), in press. Preprint of the first version: [10.21203/rs.3.rs-10238136/v1](https://doi.org/10.21203/rs.3.rs-10238136/v1).
 
 It mirrors the citable archive of the version used for the paper, [Zenodo 10.5281/zenodo.22216659](https://doi.org/10.5281/zenodo.22216659) (v2.0.0); the few differences are listed under [Changes from the archived release](#changes-from-the-archived-release).
 
